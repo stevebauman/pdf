@@ -20,11 +20,11 @@ Stevebauman\Pdf\PdfServiceProvider:class,
 
 Run `php artisan vendor:publish --tag="pdf"`
 
-Inside the published pdf config file (`config/pdf.php`), there are a couple paths you will
+Inside the published PDF configuration file (located in `config/pdf.php`), there are a couple paths you will
 need to make sure exist before you generate PDF's. You will most likely need to create these
-folders manually, or you will receive exceptions upon generation.
+folders manually, or you will receive exceptions upon the generation of PDFs.
 
-```
+```php
 'font_dir' => storage_path('pdf/fonts'),
 
 'font_cache' => storage_path('pdf/fonts'),
@@ -36,7 +36,7 @@ folders manually, or you will receive exceptions upon generation.
 
 Instantiate using the facade (`Stevebauman\Pdf\Facades\Pdf`), or using `app('pdf')`:
 
-```
+```php
 use Stevebauman\Pdf\Facades\Pdf;
 
 class PdfController extends Conrtroller
