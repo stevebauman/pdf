@@ -4,10 +4,12 @@ A [Dompdf](https://github.com/dompdf/dompdf) Wrapper for Laravel 5.
 
 ## Installation
 
-Insert into your `composer.json` file:
+Insert `"stevebauman/pdf": "1.0.*"` into your `composer.json` file:
 
 ```json
-"stevebauman/pdf": "1.0.*"
+"require": {
+  "stevebauman/pdf": "1.0.*"
+}
 ```
 
 Then run `composer update`.
