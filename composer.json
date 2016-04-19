@@ -3,9 +3,20 @@
   "description": "A Dompdf Wrapper for Laravel.",
   "keywords": ["laravel", "pdf", "dompdf"],
   "license": "MIT",
+  "support": {
+      "issues": "https://github.com/stevebauman/pdf/issues",
+      "source": "https://github.com/stevebauman/pdf"
+  },
+  "authors": [
+    {
+      "name": "Steve Bauman",
+      "email": "steven_bauman@outlook.com",
+      "role": "Developer"
+    }
+  ],
   "require": {
     "php": ">=5.5.9",
-    "illuminate/support": "~5.0",
+    "illuminate/support": "~5.1",
     "dompdf/dompdf": "0.7.*@beta"
   },
   "autoload": {
