@@ -3,7 +3,7 @@
   "description": "A Dompdf Wrapper for Laravel.",
   "keywords": ["laravel", "pdf", "dompdf"],
   "license": "MIT",
-  "type": "project",
+  "type": "library",
   "require": {
     "php": ">=5.5.9",
     "illuminate/support": "~5.0",
